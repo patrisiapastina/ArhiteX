@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="ro">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="author" content="Păștină Patrisia-Alexia" />
+		<meta
+			name="keywords"
+			content="arhitect, portofoliu profesional, portofoliu"
+		/>
+		<meta
+			name="description"
+			content="Descoperiți lumea frumuseții și inovației în arhitectură pe Arhitectura dincolo de linii. Explorează proiecte creative, idei inspirate și soluții de design captivante, realizate de arhitectul nostru, Alex Marin. Aici, arhitectura devine artă, iar spațiul devine o experiență. Alăturați-vă comunității noastre de pasionați de design și descoperiți o perspectivă unică asupra formei și funcției în lumea construită."
+		/>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>ArhiteX</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+		/>
+
+		<style>
+			.main-navbar .navbar-brand {
+				font-size: 30px;
+			}
+			.main-navbar .navbar-brand img {
+				margin-right: 15px;
+			}
+			.carousel-item .ratio img {
+				object-fit: cover;
+			}
+
+			h2 {
+				margin: 30px;
+			}
+
+			h3,
+			h4 {
+				text-align: center;
+				margin: 10px;
+			}
+
+			.card-text {
+				text-align: center;
+				margin-top: 15px;
+			}
+
+			.row {
+				margin-top: 10px;
+			}
+
+			.card {
+				padding-bottom: 20px;
+			}
+
+			.item li {
+				margin-left: 30px;
+				margin-right: 10px;
+			}
+
+			.col-md-6 {
+				margin-top: 20px;
+				text-align: center;
+			}
+
+			address {
+				text-align: center;
+			}
+		</style>
+	</head>
+
+	<body class="container-fluid bg-danger bg-opacity-10">
+		<nav class="navbar navbar-expand-md main-navbar bg-danger bg-opacity-25">
+			<div class="container">
+				<h1 class="navbar-brand">
+					<a class="nav-link" href="index.html">
+						<img
+							src="imagini/logo.png"
+							alt="logo-ul firmei"
+							width="30"
+							height="30"
+							margin="10"
+							class="d-inline-block align-text-top"
+						/>ArhiteX</a
+					>
+				</h1>
+			</div>
+			<div class="container-fluid">
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNav"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse fs-5" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="#despre-noi">Despre noi</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#servicii">Servicii</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#portofoliu">Portofoliu</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="px-lg-5">
+			<header>
+				<div id="main-carousel" class="carousel slide" data-bs-ride="true">
+					<div class="carousel-indicators">
+						<button
+							type="button"
+							data-bs-target="#main-carousel"
+							data-bs-slide-to="0"
+							class="active"
+							aria-current="true"
+							aria-label="Slide 1"
+						></button>
+						<button
+							type="button"
+							data-bs-target="#main-carousel"
+							data-bs-slide-to="1"
+							aria-label="Slide 2"
+						></button>
+						<button
+							type="button"
+							data-bs-target="#main-carousel"
+							data-bs-slide-to="2"
+							aria-label="Slide 3"
+						></button>
+						<button
+							type="button"
+							data-bs-target="#main-carousel"
+							data-bs-slide-to="3"
+							aria-label="Slide 4"
+						></button>
+						<button
+							type="button"
+							data-bs-target="#main-carousel"
+							data-bs-slide-to="4"
+							aria-label="Slide 5"
+						></button>
+					</div>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<div class="ratio ratio-21x9">
+								<img
+									src="imagini/carusel.jpg"
+									class="d-block w-100"
+									alt="livingul unei case"
+								/>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="ratio ratio-21x9">
+								<img
+									src="imagini/carusel1.jpg"
+									class="d-block w-100"
+									alt="bucătărie elegantă a unei case"
+								/>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="ratio ratio-21x9">
+								<img
+									src="imagini/carusel2.jpg"
+									class="d-block w-100"
+									alt="baia unei case"
+								/>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="ratio ratio-21x9">
+								<img
+									src="imagini/carusel3.jpg"
+									class="d-block w-100"
+									alt="holul unei case"
+								/>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="ratio ratio-21x9">
+								<img
+									src="imagini/carusel4.jpg"
+									class="d-block w-100"
+									alt="grădina unei case"
+								/>
+							</div>
+						</div>
+					</div>
+					<button
+						class="carousel-control-prev"
+						type="button"
+						data-bs-target="#main-carousel"
+						data-bs-slide="prev"
+					>
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button
+						class="carousel-control-next"
+						type="button"
+						data-bs-target="#main-carousel"
+						data-bs-slide="next"
+					>
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
+			</header>
+			<h2 id="despre-noi">Despre noi</h2>
+			<h3>Scurt istoric</h3>
+			<p class="fs-5" text>
+				Firma de arhitectură ArhiteX a fost fondată în anul 2000 de către
+				arhitecții Alex Marin și Mia Voicu. Obiectivul lor a fost să creeze
+				spații inovatoare și funcționale care să reflecte nevoile și viziunile
+				clienților. În primii ani, ArhiteX a realizat proiecte rezidențiale și
+				comerciale locale precum Dunărea Park, Bliss City și Grand Park,
+				obținând recunoaștere pentru abordarea lor fresh și designul inovator.
+				Unul dintre primele proiecte notabile a fost proiectarea unui complex
+				rezidențial care a primit premii locale pentru design. Astăzi, ArhiteX
+				rămâne o forță influentă în industria de arhitectură. Ei continuă să
+				abordeze fiecare proiect cu creativitate și inovație, punând accent pe
+				durabilitate, dar și pe îndeplinirea nevoilor clienților.
+			</p>
+			<h3>Echipă</h3>
+			<p class="fs-5" text>
+				Echipa noastră de experți în arhitectură reprezintă inima și forța
+				creativă a ArhiteX, aducând o bogată diversitate de cunoștințe și
+				experiență în fiecare proiect pe care îl abordăm. Cu o pasiune comună
+				pentru design inovator și o abordare profundă și integrată, echipa
+				noastră de arhitecți se distinge prin abilitatea de a transforma viziuni
+				abstracte în spații tangibile și funcționale. Fiecare membru al echipei
+				aduce cu sine o perspectivă unică și o expertiză specializată,
+				contribuind la un colectiv dinamic și sinergic. De la arhitecți cu o
+				vastă experiență în proiecte rezidențiale și comerciale până la
+				specialiști în design urban și sustenabilitate, fiecare individ aduce o
+				valoare distinctă la masa de lucru.
+			</p>
+			<div class="container">
+				<div class="row row-cols-1 row-cols-md-2 g-4">
+					<div class="col-lg-3 col-md-6 col-sm-12">
+						<div class="ex">
+							<div class="card">
+								<img
+									src="imagini/echipa.jpg"
+									class="card-img-top"
+									alt="bărbat îmbrăcat în costum"
+								/>
+								<p class="card-text">Alex Marin, fondator ArhiteX</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-12">
+						<div class="ex">
+							<div class="card">
+								<img
+									src="imagini/echipa1.jpg"
+									class="card-img-top"
+									alt="o femeie cu părul creț"
+								/>
+								<p class="card-text">Mia Voicu, co-fondatoare ArhiteX</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-12">
+						<div class="ex">
+							<div class="card">
+								<img
+									src="imagini/echipa2.jpg"
+									class="card-img-top"
+									alt="un bărbat cu ochelari"
+								/>
+								<p class="card-text">Ioan Cocis, designer</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-12">
+						<div class="ex">
+							<div class="card">
+								<img
+									src="imagini/echipa3.jpg"
+									class="card-img-top"
+									alt="o femeie cu părul scurt"
+								/>
+								<p class="card-text">Maria Cojocar, proiectant</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr />
+			<h2 id="servicii">Servicii</h2>
+			<div class="row row-cols-1 row-cols-md-3 g-4">
+				<div class="col">
+					<div class="card">
+						<img
+							src="imagini/servicii.jpeg"
+							class="card-img-top"
+							alt="o persoană care desenează o schiță a unui proiect"
+						/>
+						<div class="card-body">
+							<h3 class="card-title">Proiect tehnic</h3>
+							<span class="badge rounded-pill text-bg-danger bg-opacity-50 fs-6"
+								>50 euro/mp</span
+							>
+							<p class="fs-5">
+								Acest serviciu constă în elaborarea conceptelor arhitecturale
+								inovatoare și funcționale, dezvoltarea proiectelor tehnice
+								detaliate, incluzând planuri, desene și specificații, dar și
+								consultare activă cu clienții pentru asigurarea alinierii
+								complete a designului cu așteptările lor.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card">
+						<img
+							src="imagini/servicii1.jpg"
+							class="card-img-top"
+							alt="un desen și o casă proiectată 3d"
+						/>
+						<div class="card-body">
+							<h3 class="card-title">Simulare 3D</h3>
+							<span class="badge rounded-pill text-bg-danger bg-opacity-50 fs-6"
+								>600 euro</span
+							>
+							<p class="fs-5">
+								Acest serviciu constă în elaborarea unui model 3D detaliat,
+								capturând esența designului și arhitecturii propuse. Cu ajutorul
+								simulării 3D puteți avea o viziune realistă asupra proiectului
+								deoarece fiecare detaliu este redat cu precizie, reflectând
+								perfect viziunea dumneavoastră.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card">
+						<img
+							src="imagini/servicii2.jpeg"
+							class="card-img-top"
+							alt="un paletar de culori"
+						/>
+						<div class="card-body">
+							<h3 class="card-title">Design personalizat</h3>
+							<span class="badge rounded-pill text-bg-danger bg-opacity-50 fs-6"
+								>3000 euro</span
+							>
+							<p class="fs-5">
+								Acest serviciu constă în discutarea ideilor dumneavoastră și
+								stabilirea fundamentelor proiectului, elaborarea conceptelor
+								inițiale care includ schițe, propuneri de culoare și planuri de
+								amenajare, dar și implementarea proiectului după stabilirea
+								designului final.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr />
+			<h2 id="portofoliu">Portofoliu</h2>
+			<p class="fs-5">
+				Descoperiți o colecție diversificată de proiecte, de la rezidențial la
+				comercial și instituțional, fiecare reflectând pasiunea noastră pentru
+				designul inteligent și soluțiile personalizate. Fie că este vorba despre
+				case elegante, clădiri de birouri inovatoare sau spații publice care
+				inspiră, fiecare proiect își are propria poveste și specificitate. Cu o
+				abordare atentă la detalii, suntem mândri să evidențiem nu doar aspectul
+				estetic al proiectelor noastre, ci și soluțiile sustenabile și
+				funcționale pe care le integram în fiecare concept. Fiecare imagine
+				spune o poveste, iar fiecare proiect reprezintă o manifestare a viziunii
+				noastre asupra arhitecturii contemporane. Navigați prin portofoliul
+				nostru și lăsați-ne să vă ghidăm printr-un univers al formelor,
+				culorilor și inovației. Suntem aici pentru a da viață viselor
+				dumneavoastră arhitecturale.
+			</p>
+			<div class="container mt-5">
+				<div class="row">
+					<div class="col-md-3 mb-4">
+						<img
+							src="imagini/portofoliu.jpeg"
+							class="img-fluid"
+							alt="un living"
+						/>
+					</div>
+					<div class="col-md-3 mb-4">
+						<img
+							src="imagini/portofoliu1.jpg"
+							class="img-fluid"
+							alt="o bucătărie"
+						/>
+					</div>
+					<div class="col-md-3 mb-4">
+						<img
+							src="imagini/portofoliu2.jpg"
+							class="img-fluid"
+							alt="un living"
+						/>
+					</div>
+					<div class="col-md-3 mb-4">
+						<img src="imagini/portofoliu3.jpg" class="img-fluid" alt="o baie" />
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="bg-danger bg-opacity-25">
+			<div class="container">
+				<address>
+					<strong>ArhiteX</strong><br />
+					Adresă: Aleea Padiș nr. 5, Cluj-Napoca<br />
+					Telefon: 0740000000<br />
+					Email: office@arhiteX.com
+				</address>
+
+				<hr />
+				<div class="row">
+					<div class="col-md-6">
+						<p>&copy; 2023 ArhiteX. Toate drepturile rezervate.</p>
+					</div>
+					<div class="col-md-6">
+						<ul class="item list-unstyled d-flex">
+							<li>
+								<a href="https://www.facebook.com/"
+									><img src="imagini/facebook.png" alt="logo facebook"
+								/></a>
+							</li>
+							<li>
+								<a href="https://www.instagram.com/"
+									><img src="imagini/instagram.png" alt="logo instagram"
+								/></a>
+							</li>
+							<li>
+								<a href="https://twitter.com/"
+									><img src="imagini/twitter.png" alt="logo twitter"
+								/></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
